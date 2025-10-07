@@ -1,0 +1,41 @@
+<script>
+        let nav = document.querySelector('nav');
+        let lastScrollValue=0;
+        
+        //When scrolling (up or down)
+        window.addEventListener('scroll', () => {
+            
+            let distanceScrolled = window.pageYOffset || document.documentElement.scrollTop;
+            console.log(distanceScrolled);
+            
+            //if scrolling down
+            if(distanceScrolled > lastScrollValue)
+                {
+                    console.log("going down !")
+                    nav.style.opacity = 0;
+                }
+            
+            //if scrolling up
+            else
+            {
+                console.log("going up !");
+                nav.style.opacity = 1;
+            }
+            
+            lastScrollValue = distanceScrolled;
+          
+        });
+   
+    </script>
+
+
+
+
+
+
+
+
+
+STYLE.css
+nav
+background-color
