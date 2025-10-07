@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 100vh;
+}
+
+#banner_home
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/berlin.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_regulament
+{
+    width: 100%;
+    height: 120vh;
+    background: url(images/atletico.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_licee
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/arsenal.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_rezultate
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/campnou.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_locatii
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/juventus.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_contact
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/anfield.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#banner_intrebari
+{
+    width: 100%;
+    height: 120vh;
+    background: url(images/atletico.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#banner_inscriere
+{
+    width: 100%;
+    height: 100vh;
+    background: url(images/madrid.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo
+{
+    width: 150px;
+    cursor: pointer;    
+}
+
+nav ul
+{
+    flex: 1;
+    text-align: center;   
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn
+{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 7%;
+}
+
+.banner-text
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 500px;
+}
+.banner-text h1
+{
+    font-size: 130px;
+    font-family: 'Kanit', sans-serif;
+}
+.banner-text p
+{
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 30px;
+}
+.banner-btn
+{
+    margin: 70px auto 0;
+}
+.banner-btn a
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span
+{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span
+{
+    width: 100%;
+}
+.banner-btn a:hover
+{
+    color: #000;
+}
+
+
+
+
+
+.reg
+{
+
+    color: #fff;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.reg h1
+{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 50px;
+}
+
+.reg p
+{
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.reg h2
+{
+    
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+
+
+
+
+.lic
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 600px;
+}
+
+.lic h1
+{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lic p
+{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+
+.rez
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 600px;
+}
+
+.rez h1
+{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.rez p
+{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.loc
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 500px; 
+}
+
+.loc h2
+{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.loc p
+{
+    font-size: 30px;
+    font-style: italic;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.loc a
+{
+    font-size: 45px;
+    font-weight: 500;
+    color: #00bcd4;   
+}
+
+
+
+
+
+
+
+.cont
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 500px; 
+}
+
+.cont p
+{
+    font-size: 45px;
+    padding-right: 20%;
+    padding-left: 20%;  
+}
+
+.cont h2
+{
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif; 
+    color: #00bcd4;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.int
+{
+
+    color: #fff;
+    text-align: center;
+    padding-top: 17%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.int h1
+{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 50px;
+}
+
+.int p
+{
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+.inscr
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 400px; 
+}
+
+.inscr h2
+{
+    font-size: 80px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.inscr p
+{
+    font-size: 40px;
+    font-style: italic;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.inscr a
+{
+    font-size: 60px;
+    font-weight: 500;
+    color: #00bcd4;   
+}
